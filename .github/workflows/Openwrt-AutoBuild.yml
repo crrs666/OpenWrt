@@ -20,6 +20,9 @@ env:
   TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
   TZ: Asia/Shanghai
+  UPLOAD_FIRMWARE_FOR_RELEASE: true
+  UPLOAD_FIRMWARE_TO_COWTRANSFER: true
+  
 
 jobs:
   build:
